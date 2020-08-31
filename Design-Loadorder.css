@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body {
+    font-family: Arial;
+    paddings: 0px;
+    background: rgb(100, 98, 98, 0.2);
+    background-image: url("/Bilder/Hintergrundbild.jpg");
+    background-attachment: fixed;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    text-align: center;
+    background: rgba(32, 61, 68, 0.767);
+    position: center;
+    align-items: center;
+    padding: 0px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    widtxh: 956px;
+    border-radiusp: 20px;
+    margin-top: 0px;
+        }
+  .header h1 {
+    font-size: 64px;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 500;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:auto;
+     border-right-width: 80px;
+     padding-right: 0px;
+     widthx: 956px;
+     borders: 5px;
+     border-radius: 0px 0px 25px 25px;
+    margin-top: 0px;
+
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #919191;
+    text-align: center;
+    padding: 14px 26px ;
+    text-decoration: none;
+    border-radius:  0.7rem;
+    transition: 0.6s;
+    
+  }                 
+
+    /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(29, 115, 214);
+    border-radius: 0.5rem;
+  }
+  .body_loadorder{
+      display:block;
+      text-align: center;
+      background: rgba(46, 46, 46, 0.9);
+      position: center;
+      align-items: center;
+      padding: ;
+      padding-right: 0;
+      padding-left: 0;
+      margin: auto;
+      display: block;
+      margin-top: 20px;
+      width: 956px;
+      border-left: 4rem;
+      color: white;
+      
+  }   
+  .BildLoadorder{
+      padding-bottom: 10px;
+      margin-bottom: auto;
+      
+  }
+  .active{
+    background: rgba(12, 66, 218, 0.651);
+  }
+  .p2{
+    color:white;
+     margin-bottom: 0px;
+  }
+  
